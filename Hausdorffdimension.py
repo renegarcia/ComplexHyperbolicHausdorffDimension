@@ -25,7 +25,7 @@ import math as m
 # Primero se generarán los puntos muestra hasta el nivel k del arbol de palabras
 k=input('Proporcione un entero como máximo de logitud de palabras: ')
 levmax=int(k)
-t=input('Pi Fraction< 1/3: ')
+t=float(input('Pi Fraction< 1/3: '))
 
 N=3*(2**(levmax-1))
 N1=3*(2**(levmax))
